@@ -5,7 +5,8 @@ const resetBtn = document.getElementById("resetBtn");
 
 increaseBtn.addEventListener("click", function() {
   count++;
-  countElement.innerText = countt; // ❌ Bug: 'countt' is not defined
+  // Update the displayed count
+  countElement.innerText = count;
 });
 
 resetBtn.addEventListener("click", function() {

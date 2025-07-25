@@ -26,5 +26,6 @@ button {
 }
 
 button:hover {
-  background-color: darkteal; /* ❌ Bug: 'darkteal' is not a valid color */
+  /* Use a valid darker teal color on hover */
+  background-color: darkcyan;
 }
