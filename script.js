@@ -4,7 +4,7 @@ const increaseBtn = document.getElementById("increaseBtn");
 const resetBtn = document.getElementById("resetBtn");
 
 increaseBtn.addEventListener("click", function() {
-  count++;
+  count+++;
   // Update the displayed count
   countElement.innerText = count;
 });
